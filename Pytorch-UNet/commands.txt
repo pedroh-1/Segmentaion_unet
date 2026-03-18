@@ -1,0 +1,50 @@
+  192  java -version
+  193  conda activate segmentation_unet_gpu
+  194  gimp
+  195  labelme
+  196  cd /home
+  197  cd ./vicom-02
+  198  cd ./downloads
+  199  cd ./Downloads
+  200  cd ./segmentation_unet
+  201  cd ./labelme-main
+  202  cd ./examples
+  203  cd ./semantic_segmentation
+  204  python labelme2voc.py my_data_annotated output --labels.txt
+  205  python labelme2voc.py my_data_annotated output --labels labels.txt
+  206  labelme
+  207  python labelme2voc.py my_data_annotated output --labels labels.txt
+  208  cd -
+  209  cd --
+  210  cd /home
+  211  cd ./vicom-02
+  212  cd ./Downloads
+  213  cd ./segmentation_unet
+  214  cd ./Pytorch_UNet
+  215  cd ./Pytorch-UNet
+  216  python train.py
+  217  python predict.py --model checkpoints/checkpoint_epoch166.pth --input data/test/soja-24.jpg --viz --classes 2
+  218  python -version
+  219  java -version
+  220  conda activate segmentation_unet_gpu
+  221  gimp
+  222  labelme 
+  223  conda activate segmentation_unet_gpu
+  224  gimpi
+  225  gimp
+  226  conda activate segmentation_unet_gpu
+  227  gimp
+  228  labelme
+  229  conda activate segmentation_unet_gpu
+  230  cd /home
+  231  cd ./vicom-02/
+  232  cd ./Downloads
+  233  cd ./segmentation_unet
+  234  cd ./Pytorch-Unet
+  235  cd ./Pytorch-UNet
+  236  python predict.py --model checkpoints/checkpoint_epoch166.pth --input data/test/sojaArUco.jpg --viz --classes
+  237  gimp
+  238  history | tall -n 10 >> commands.txt
+  239  history | tall -n 10 > commands.txt
+  240  history | tail -n 10 > commands.txt
+  241  history | tail -n 50 > commands.txt
